@@ -741,6 +741,13 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.9.2":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
+  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.1.0", "@babel/template@^7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.1.2.tgz#090484a574fef5a2d2d7726a674eceda5c5b5644"
@@ -778,6 +785,104 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
+
+"@fusioncharts/charts@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/charts/-/charts-3.15.3.tgz#46b42048760b1929d13afe6a298423226ea6d5d5"
+  integrity sha512-X4TGbBZMq9tF19kV9nt271EJsxVKV2XSU7lzUNcfq7cvGM033sf6grCfKD/p52urpOKaUVYW5pzQDQ7tmtYwjQ==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/features" "^1.1.0"
+    "@fusioncharts/utils" "^1.1.0"
+
+"@fusioncharts/constructor@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/constructor/-/constructor-1.1.0.tgz#e6e86f0a136785bf1a7a0b274eb50f8c5a87dfa7"
+  integrity sha512-8e9abCdwTf/LRpLYq68cIpw7sYdeuh19nANGdVMFtFfatT5Kw5k89O8mEJBccVl+iaCxxAdm80Yj+uL0zBmesg==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/maps" "^3.15.3"
+
+"@fusioncharts/core@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/core/-/core-1.1.0.tgz#32826afaf97a48bb80a7e68a39abd5a11dae664f"
+  integrity sha512-j5GjccpKhy1g5yy6NY+s6rempx7+gseB64PCJwD0OVVZYX5JClPymv1C4KjlZhQUf+lNSwmgwgZHTimQxo+Tig==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/utils" "^1.1.0"
+    core-js "^3.0.1"
+    ramda "^0.25.0"
+
+"@fusioncharts/datatable@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/datatable/-/datatable-1.1.0.tgz#bd6a499d512a5b3cf7dabdfa0ba81c30c158b1ec"
+  integrity sha512-McUhSpr0kbvr0UH8gaS5u0foH04IfgZmZ0nbMOjDTxYgFzRMDup4ID5fypjrJvx7Awj9HhuxNI4ctVcUFKX1nQ==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/utils" "^1.1.0"
+
+"@fusioncharts/features@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/features/-/features-1.1.0.tgz#acc23073389c18f547e1328052ae07a0802dfc1a"
+  integrity sha512-5fhFlZ6c9ifJxOjPrBRdKHN0UCml6wTopCkpPo3oNksabmZnFp6kDU+HKdpn/GtzpYGpkGdkwwYly0fP9e2ziA==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/utils" "^1.1.0"
+
+"@fusioncharts/fusiontime@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/fusiontime/-/fusiontime-2.3.0.tgz#152597a2f15c73c63b7d4216892aa4e2d70f4ea7"
+  integrity sha512-nW3aOfmQyqWncaF/Oka6o6pvrtPsOjiFMNGOFSD1Nlp9hCfsnr27hRUIpw+gx9UOkSdnR/z2WUKTcGkhxQHMRw==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/charts" "^3.15.3"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/datatable" "^1.1.0"
+    "@fusioncharts/utils" "^1.1.0"
+    ramda "^0.25.0"
+
+"@fusioncharts/maps@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/maps/-/maps-3.15.3.tgz#fccaafb84e9d3b44abcc26603adb696c3c0487a8"
+  integrity sha512-tQAWiuXxE8CakWaLIBzredxdAmjIy9w0Pl+kA0LIF9x5fRIh/cqoEXoT7XhlJnA3uSbMmKo6kTo7ObFRo/pPEg==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/charts" "^3.15.3"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/features" "^1.1.0"
+
+"@fusioncharts/powercharts@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/powercharts/-/powercharts-3.15.3.tgz#4f86d8a8af69e05051c9797b5125c4a68119b07a"
+  integrity sha512-VhWdhwSXFN3iBs7IbqHt8jEPgMpJX+rNqH5scAMcEMzhJDBbFRAGIp/qF7ZU0Jq6t2Sju+rvRxCZtg6hkGkClg==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/charts" "^3.15.3"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/utils" "^1.1.0"
+
+"@fusioncharts/utils@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/utils/-/utils-1.1.0.tgz#16508be594cc9d5a111a1d7cebefec92acffd896"
+  integrity sha512-Kndbbb/BAivcLZZF03GjfJifMs/lOQBXDuce7FHrkypkUH+IB8mouZYCVrmA4cjLjY3rDQ/eJQt4STCQihG6Bw==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    ramda "^0.25.0"
+
+"@fusioncharts/widgets@^3.15.3":
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/@fusioncharts/widgets/-/widgets-3.15.3.tgz#920b454f808f30e23aff2b54b0903d594a5d5a98"
+  integrity sha512-Pw7yclCrX8ssoYgC5TNnP4p5OB9IP3RbCJ1nTjuTzlqgUbwLz9r8wSfRA+QKQXWXqeGLo0glU/G78w0010T99g==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/charts" "^3.15.3"
+    "@fusioncharts/constructor" "^1.1.0"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/features" "^1.1.0"
+    "@fusioncharts/utils" "^1.1.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -1867,6 +1972,11 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
+bulma@^0.7.2:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.5.tgz#35066c37f82c088b68f94450be758fc00a967208"
+  integrity sha512-cX98TIn0I6sKba/DhW0FBjtaDpxTelU166pf7ICXpCCuplHWyu6C9LYZmL5PEsnePIeJaiorsTEzzNk3Tsm1hw==
+
 bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
@@ -2352,6 +2462,11 @@ core-js@2.5.7, core-js@^2.4.0, core-js@^2.5.0:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
   integrity sha512-RszJCAxg/PP6uzXVXL6BsxSXx/B05oJAQ2vkJRjyjrEcNVycaqOmNb5OTxZPE3xa5gwZduqza6L9JOCenh/Ecw==
+
+core-js@^3.0.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.8.1.tgz#f51523668ac8a294d1285c3b9db44025fda66d47"
+  integrity sha512-9Id2xHY1W7m8hCl8NkhQn5CufmF/WuR30BTRewvCXc1aZd3kMECwNZ69ndLbekKfakw9Rf2Xyc+QR6E7Gg+obg==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -2979,9 +3094,9 @@ domutils@^1.7.0:
     domelementtype "1"
 
 dot-prop@^4.1.1:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
-  integrity sha512-tUMXrxlExSW6U2EXiiKGSBVdYgtV8qlHL+C10TsW4PURY/ic+eaysnSkwB4kA/mBlCyy/IKDJ+Lc3wbWeaXtuQ==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.1.tgz#45884194a71fc2cda71cbb4bceb3a4dd2f433ba4"
+  integrity sha512-l0p4+mIuJIua0mhxGoh4a+iNL9bmeK5DvnSVQa6T0OhrVmaEa1XScX5Etc673FePCJOArq/4Pa2cLGODUWTPOQ==
   dependencies:
     is-obj "^1.0.0"
 
@@ -3889,6 +4004,25 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+
+fusioncharts@^3.13.3:
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/fusioncharts/-/fusioncharts-3.15.3.tgz#8211deed540a3a0629b667344008b8c9a713ab60"
+  integrity sha512-2B94xRGf9VMa1A+phptgL02qtCLyqZjQnpQB1IwyBsF+VoH31rSFMeaeJey+dRv3IKPtrk1VTtWBa0h3+t3l0g==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+    "@fusioncharts/charts" "^3.15.3"
+    "@fusioncharts/constructor" "^1.1.0"
+    "@fusioncharts/core" "^1.1.0"
+    "@fusioncharts/datatable" "^1.1.0"
+    "@fusioncharts/features" "^1.1.0"
+    "@fusioncharts/fusiontime" "^2.3.0"
+    "@fusioncharts/maps" "^3.15.3"
+    "@fusioncharts/powercharts" "^3.15.3"
+    "@fusioncharts/utils" "^1.1.0"
+    "@fusioncharts/widgets" "^3.15.3"
+    mutationobserver-shim "^0.3.5"
+    promise-polyfill "^8.1.3"
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -6098,6 +6232,11 @@ multicast-dns@^6.0.1:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
 
+mutationobserver-shim@^0.3.5:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/mutationobserver-shim/-/mutationobserver-shim-0.3.7.tgz#8bf633b0c0b0291a1107255ed32c13088a8c5bf3"
+  integrity sha512-oRIDTyZQU96nAiz2AQyngwx1e89iApl2hN5AOYwyxLUB47UYsU3Wv9lJWqH5y/QdiYkc5HQLi23ZNB3fELdHcQ==
+
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -7485,6 +7624,11 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+promise-polyfill@^8.1.3:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.2.0.tgz#367394726da7561457aba2133c9ceefbd6267da0"
+  integrity sha512-k/TC0mIcPVF6yHhUvwAp7cvL6I2fFV7TzF1DuGPI8mBh4QQazf36xCKEHKTZKRysEoTQoQdKyP25J8MPJp7j5g==
+
 promise@8.0.2:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/promise/-/promise-8.0.2.tgz#9dcd0672192c589477d56891271bdc27547ae9f0"
@@ -7615,6 +7759,11 @@ raf@3.4.0:
   dependencies:
     performance-now "^2.1.0"
 
+ramda@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
+  integrity sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==
+
 randomatic@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-3.1.1.tgz#b776efc59375984e36c537b2f51a1f0aff0da1ed"
@@ -7705,20 +7854,27 @@ react-dev-utils@^6.1.1:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.6.3:
-  version "16.6.3"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
-  integrity sha512-8ugJWRCWLGXy+7PmNh8WJz3g1TaTUt1XyoIcFN+x0Zbkoz+KKdUyx1AQLYJdbFXjuF41Nmjn5+j//rxvhFjgSQ==
+react-dom@^16.6.3:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.11.2"
+    scheduler "^0.19.1"
 
 react-error-overlay@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.0.tgz#c516995a5652e7bfbed8b497910d5280df74a7e8"
   integrity sha512-akMy/BQT5m1J3iJIHkSb4qycq2wzllWsmmolaaFVnb+LPV9cIJ/nTud40ZsiiT0H3P+/wXIdbjx2fzF61OaeOQ==
+
+react-fusioncharts@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/react-fusioncharts/-/react-fusioncharts-2.0.7.tgz#f21c00bc61764ac103f359f53c5769aff50661c7"
+  integrity sha512-zZhPQVtwkXT4PfXOtJXNeKWB46tGOi2Q38G5aVwP6427LnVJHRXc8LFbSCR+5YXfccTnDt+yXbyBQ/3xTTveEg==
+  dependencies:
+    uuid "^3.2.1"
 
 react-scripts@2.1.1:
   version "2.1.1"
@@ -7775,15 +7931,14 @@ react-scripts@2.1.1:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.6.3:
-  version "16.6.3"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
-  integrity sha512-zCvmH2vbEolgKxtqXL2wmGCUxUyNheYn/C+PD1YAjfxHC54+MhdruyhO7QieQrYsYeTxrn93PM2y0jRH1zEExw==
+react@^16.6.3:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.11.2"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -7886,6 +8041,11 @@ regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.13.3:
   version "0.13.3"
@@ -8230,10 +8390,10 @@ saxes@^3.1.3:
   dependencies:
     xmlchars "^1.3.1"
 
-scheduler@^0.11.2:
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.11.3.tgz#b5769b90cf8b1464f3f3cfcafe8e3cd7555a2d6b"
-  integrity sha512-i9X9VRRVZDd3xZw10NY5Z2cVMbdYg6gqFecfj79USv1CFN+YrJ3gIPRKf1qlY+Sxly4djoKdfx1T+m9dnRB8kQ==
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -9274,6 +9434,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+
+uuid@^3.2.1:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
